@@ -28,4 +28,23 @@ const getUser = async(req,res) => {
     }
 }
 
-module.exports = { registerUser,getUser }
+const getUserById = async(req,res) => {
+    try{
+        User.findById(req.params.id)
+        .then(data => res.send(data))
+        .catch(err => res.send('something went wrong'))
+    }catch(err){
+        console.log(err)
+        res.send('ERR')
+    }
+}
+
+const updateUserById = async(req,res) => {
+    //
+}
+
+const deleteUserById = async(req,res) => {
+
+}
+
+module.exports = { registerUser,getUser, getUserById, updateUserById, deleteUserById }
