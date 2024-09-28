@@ -40,11 +40,38 @@ const getUserById = async(req,res) => {
 }
 
 const updateUserById = async(req,res) => {
-    //
+    try{
+        const updatedUser = await User.findByIdAndUpdate(
+            req.params.id,
+            {
+                username: req.body.username,
+                email: req.body.email,
+                password: req.body.password
+            },
+            {
+                new: true
+            }
+        )
+        if(!updatedUser){
+           return res.status(404).send('User Not found')
+        }
+        res.send(updatedUser)
+    }catch(err){
+        console.log(err)
+        res.send('ERR')
+    }
 }
 
 const deleteUserById = async(req,res) => {
+    try{
+        const deletedUser = await User.findByIdAndDelete(req.params.id)
+        if(!deletedUser){
+            return res.status(404).send('User Not found')
+        }
+        res.send('User deleted successfully')
+    }catch(err){
 
+    }
 }
 
 module.exports = { registerUser,getUser, getUserById, updateUserById, deleteUserById }
