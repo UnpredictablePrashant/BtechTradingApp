@@ -1,0 +1,102 @@
+<mxfile host="Electron" modified="2024-10-07T11:33:49.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="l7cJgVpOZRvN32YTaC9t" version="23.0.2" type="device">
+  <diagram name="Page-1" id="XAqFcjNGjBSZ4634Beh5">
+    <mxGraphModel dx="880" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-1" value="Chat Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-2" value="User Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-3" value="Trading Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-4" target="NH5YMae6gR8kH_Cqt5Dd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-5" target="NH5YMae6gR8kH_Cqt5Dd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-5" value="Register/Login" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-6" target="NH5YMae6gR8kH_Cqt5Dd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-6" target="NH5YMae6gR8kH_Cqt5Dd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-6" target="NH5YMae6gR8kH_Cqt5Dd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-6" value="Home Page&lt;br&gt;-- User Stats (current price, volume)&lt;br&gt;-- Trending Stocks" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="105" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-7" value="Profile" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-8" target="NH5YMae6gR8kH_Cqt5Dd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-8" value="All Stocks" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-9" value="Add Fund/&lt;br&gt;Withdraw" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-12" value="Purchase Stock" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-13" value="Wallet" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-14" value="Sell Stocks" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-8" target="NH5YMae6gR8kH_Cqt5Dd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.05;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-6" target="NH5YMae6gR8kH_Cqt5Dd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-21" value="Collections:&lt;br&gt;--&amp;gt; user&lt;br&gt;--&amp;gt; userDetails&lt;br&gt;--&amp;gt; userStockPricing&lt;br&gt;--&amp;gt; orderBook&lt;br&gt;--&amp;gt; transaction&lt;br&gt;--&amp;gt; funds&lt;br&gt;--&amp;gt; fundHistory&lt;br&gt;--&amp;gt; conversation&lt;br&gt;--&amp;gt; messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-23" value="User" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-24" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;username: String,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;email: String,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;password: String,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;createdAt: Date&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NH5YMae6gR8kH_Cqt5Dd-23">
+          <mxGeometry x="11" y="44" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-25" value="UserDetails" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="600" width="441" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-26" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;userId: ObjectId,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name: String,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;bio, name, age, gender, phoneNum, enrollmentNum,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;department, batch, semester, school (school name, percentage marks, city),&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;city, country, hobby, achievements, profilePic&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;createdAt: Date&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NH5YMae6gR8kH_Cqt5Dd-25">
+          <mxGeometry x="11" y="29" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-26" target="NH5YMae6gR8kH_Cqt5Dd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NH5YMae6gR8kH_Cqt5Dd-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-29" value="User Stock Pricing" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-30" value="{&lt;br&gt;userId: ObjectId,&lt;br&gt;stockSymbol: String,&lt;br&gt;quantity: String,&lt;br&gt;pricing: Number,&lt;br&gt;updatedAt: Date&lt;br&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NH5YMae6gR8kH_Cqt5Dd-29">
+          <mxGeometry x="35" y="45" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NH5YMae6gR8kH_Cqt5Dd-32" value="&lt;h1&gt;User Service&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add User (register)&lt;/li&gt;&lt;li&gt;Login&lt;/li&gt;&lt;li&gt;Delete User&lt;/li&gt;&lt;li&gt;Update User&lt;/li&gt;&lt;li&gt;Add User Details&lt;/li&gt;&lt;li&gt;Update User Details&lt;/li&gt;&lt;li&gt;Delete User Details&lt;/li&gt;&lt;li&gt;Get User Details by Id&lt;/li&gt;&lt;li&gt;Get All User List&lt;/li&gt;&lt;li&gt;Add User Stock Pricing&lt;/li&gt;&lt;li&gt;Update User Stock Pricing&lt;/li&gt;&lt;li&gt;Fetch User Stock Pricing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="310" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
